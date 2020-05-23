@@ -1,8 +1,22 @@
 <resources>
     <string name="app_name">ContactManager</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="home">Home</string>
-    <string name="dashboard">Dashboard</string>
+    <!--    Common-->
+    <string name="grant_permission">Grant Permission</string>
+    <string name="continue_str">Continue</string>
+
+    <!--    Landing Activity-->
+    <string name="la_welcome_header">Almost Ready…</string>
+    <string name="la_welcome_message">Before we get started\nwe need following permissions</string>
+    <string name="la_mandatory_permissions">Mandatory Permissions</string>
+    <string name="la_read_contacts">Read Phone Contacts</string>
+    <string name="la_read_contacts_details">Remember, name of this app is \'ContactManager\'.
+        It will not work without this permission</string>
+    <string name="la_optional_permissions">Optional Permissions</string>
+    <string name="la_write_contacts">Write Phone Contacts</string>
+    <string name="la_write_contacts_details">For editing and deleting contacts</string>
+    <string name="la_phone_storage">Allow Access to Phone Storage</string>
+    <string name="la_phone_storage_details">To save and modify contact pictures</string>
+    <string name="la_phone_call">Phone Call</string>
+    <string name="la_phone_call_details">To call contact directly from the app</string>
 </resources>
