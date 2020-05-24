@@ -10,10 +10,12 @@
         android:layout_width="15sp"
         android:layout_height="15sp"
         android:layout_marginStart="8dp"
+        android:tint="@color/warn"
         app:layout_constraintBottom_toTopOf="@+id/la_item_details"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/la_item_header"
-        app:srcCompat="@drawable/ic_check_circle_regular" />
+        app:srcCompat="@drawable/ic_check_circle_regular"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/la_item_header"

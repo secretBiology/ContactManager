@@ -63,9 +63,19 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/margin"
         android:layout_marginBottom="@dimen/margin"
-        android:background="@color/colorPrimary"
         android:text="@string/continue_str"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/la_dismiss"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/la_dismiss"
+        app:layout_constraintBottom_toBottomOf="@+id/la_continue"
+        app:layout_constraintEnd_toStartOf="@+id/la_continue"
+        app:layout_constraintTop_toTopOf="@+id/la_continue" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
