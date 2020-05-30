@@ -6,6 +6,7 @@
     <string name="permission_denied">Permission Denied</string>
     <string name="granted">Granted</string>
     <string name="continue_str">Continue</string>
+    <string name="oops">Oops…</string>
 
     <!--    Landing Activity-->
     <string name="la_welcome_header">Almost Ready…</string>
@@ -22,4 +23,19 @@
     <string name="la_phone_call">Phone Call</string>
     <string name="la_phone_call_details">To call contact directly from the app</string>
     <string name="la_dismiss">Dismiss Forever</string>
+
+    <!--    Home-->
+    <string name="home">Home</string>
+
+    <!--    Contact List-->
+    <string name="contact_list">Contact List</string>
+
+    <!--    Settings-->
+    <string name="settings">Settings</string>
+    <string name="cloud">Cloud</string>
+    <string name="history">History</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

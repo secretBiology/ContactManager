@@ -1,6 +1,7 @@
 package com.secretbiology.contactmanager.commons
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -22,3 +23,8 @@ fun Context.toast(message: CharSequence) = Toast.makeText(this, message, Toast.L
 
 fun ViewGroup.inflate(layout: Int) =
     LayoutInflater.from(this.context).inflate(layout, this, false)!!
+
+
+fun test(message: String) {
+    Log.i("Test======", message)
+}
