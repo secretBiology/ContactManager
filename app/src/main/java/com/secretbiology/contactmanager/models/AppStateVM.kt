@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class AppStateViewModel : ViewModel() {
+class AppStateVM : ViewModel() {
     private val showProgress = MutableLiveData<Boolean>()
     private val showError = MutableLiveData<String>()
 

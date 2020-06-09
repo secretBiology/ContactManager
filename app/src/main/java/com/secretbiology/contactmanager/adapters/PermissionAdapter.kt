@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.core.widget.ImageViewCompat
 import androidx.recyclerview.widget.RecyclerView
@@ -54,5 +55,6 @@ class PermissionAdapter(private val items: MutableList<PermissionItems>) :
         var icon: ImageView = itemView.findViewById(R.id.la_item_img)
         var header: TextView = itemView.findViewById(R.id.la_item_header)
         var details: TextView = itemView.findViewById(R.id.la_item_details)
+
     }
 }

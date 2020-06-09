@@ -3,4 +3,9 @@
     <dimen name="margin">32sp</dimen>
     <dimen name="la_top_margin">32sp</dimen>
     <dimen name="la_status_bar">12sp</dimen>
+
+    <dimen name="cl_item_icon">50sp</dimen>
+    <dimen name="cl_item_status_icon">15sp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
 </resources>
